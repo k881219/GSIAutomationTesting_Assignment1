@@ -38,11 +38,6 @@ public class Search {
         assertEquals(hrefURL, driver.getCurrentUrl());
     }
 
-    @Test
-    public void testAccessFirstResult(){
-
-    }
-
     @After
     public void closeChrome() {
         driver.quit();
